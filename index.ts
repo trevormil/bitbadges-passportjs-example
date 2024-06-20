@@ -7,12 +7,12 @@ const app = express();
 const port = 5000;
 
 //typically with env variables
-// const BITBADGES_CLIENT_ID = process.env.BITBADGES_CLIENT_ID ?? '';
-// const BITBADGES_CLIENT_SECRET = process.env.BITBADGES_CLIENT_SECRET ?? '';
-const BITBADGES_CLIENT_ID =
-    '0bd8c06544c539f067d89cb50c3b0731033876ae0b3936dd897796abc1a7b540';
-const BITBADGES_CLIENT_SECRET =
-    '8e901787d8a5fa2ba22b0c026486f9e42a49b509a5db9414d7e484e59ba6e9fd';
+const BITBADGES_CLIENT_ID = process.env.BITBADGES_CLIENT_ID ?? '';
+const BITBADGES_CLIENT_SECRET = process.env.BITBADGES_CLIENT_SECRET ?? '';
+// const BITBADGES_CLIENT_ID =
+//     '0bd8c06544c539f067d89cb50c3b0731033876ae0b3936dd897796abc1a7b540';
+// const BITBADGES_CLIENT_SECRET =
+//     '8e901787d8a5fa2ba22b0c026486f9e42a49b509a5db9414d7e484e59ba6e9fd';
 
 app.use(
     session({
